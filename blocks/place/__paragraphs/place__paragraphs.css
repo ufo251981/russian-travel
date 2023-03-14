@@ -1,0 +1,4 @@
+.place__paragraphs{
+    display: grid;
+    gap: 26px 0;
+}

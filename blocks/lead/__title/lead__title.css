@@ -7,6 +7,7 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    margin-top: 56px;
+    padding-top: 58px;
     margin-bottom: 32px;
+    font-size: calc( (100vw - 320px)/(1280 - 320) * (96 - 40) + 40px);
 }

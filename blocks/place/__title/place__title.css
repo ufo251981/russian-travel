@@ -1,0 +1,12 @@
+.place__title{
+    /*grid-area: title;*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    /*font-size: 72px;*/
+    line-height: 106%;
+    margin: 0;
+    width: 100%;
+    letter-spacing: 0.07rem;
+    font-size: calc( (100vw - 320px)/(1280 - 320) * (72 - 32) + 32px);
+}

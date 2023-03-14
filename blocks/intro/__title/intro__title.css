@@ -3,7 +3,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 54px;
+    /*font-size: 54px;*/
     line-height: 58px;
     margin-bottom: 40px;
+    font-size: calc( (100vw - 320px)/(1280 - 320) * (54 - 32) + 32px);
 }

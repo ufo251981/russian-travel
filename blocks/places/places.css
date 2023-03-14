@@ -1,0 +1,11 @@
+.places{
+    /*display: flex;
+    flex-direction: column;*/
+    width: calc(100% - 2 * 148px);
+    margin: auto;
+    max-width: 984px;
+}
+.place:last-child{
+    padding-bottom: 0;
+    padding-bottom: 92px;
+}

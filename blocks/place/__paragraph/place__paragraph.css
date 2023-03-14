@@ -1,0 +1,10 @@
+.place__paragraph{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 18px;*/
+    line-height: 160%;
+    grid-column: 2/3;
+    font-size: calc( (100vw - 320px)/(1280 - 320) * (18 - 16) + 16px);
+}
