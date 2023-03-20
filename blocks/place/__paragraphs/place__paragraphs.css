@@ -1,4 +1,17 @@
 .place__paragraphs{
     display: grid;
-    gap: 26px 0;
+    gap: 27px 0;
+}
+@media screen and (max-width: 768px) {
+    .place__paragraphs{
+        gap: 25px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraphs{
+        grid-row: 4;
+        width: calc(100% - 30px);
+        margin: auto;
+        row-gap: 24px;
+    }
 }

@@ -1,4 +1,18 @@
-.cover__overlay{
-    background: #2A2C2F;
-    opacity: 0.3;
+/*.cover__overlay{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    background-color: #2A2C2F;
+    opacity: 0.8;
+}
+@media screen and (max-width: 1024px) {
+    .cover__overlay{
+        width: 100%;
+        max-height: 640px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__overlay{
+        width: 100%;
+        max-height: 480px;
+    }
 }

@@ -3,8 +3,24 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 18px;*/
-    line-height: 160%;
+    font-size: 1.125rem;
+    line-height: 161%;
     grid-column: 2/3;
-    font-size: calc( (100vw - 320px)/(1280 - 320) * (18 - 16) + 16px);
+    /*font-size: calc( (100vw - 320px)/(1280 - 320) * (18 - 16) + 16px);*/
+}
+@media screen and (max-width: 1024px) {
+    .place__paragraph{
+        font-size: calc((100vw - 48rem)/(64 - 48) * (1.125 - 1) + 1rem);
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__paragraph{
+        line-height: 162%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraph{
+        line-height: 163%;
+        font-size: 1rem;
+    }
 }

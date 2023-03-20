@@ -3,10 +3,29 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    /*font-size: 72px;*/
+    font-size: 72px;
     line-height: 106%;
     margin: 0;
     width: 100%;
     letter-spacing: 0.07rem;
-    font-size: calc( (100vw - 320px)/(1280 - 320) * (72 - 32) + 32px);
+    /*font-size: calc( (100vw - 320px)/(1280 - 320) * (72 - 32) + 32px);*/
+}
+@media screen and (max-width: 1024px) {
+    .place__title{
+        font-size: calc( (100vw - 48rem)/(64 - 48) * (4.5 - 2.625) + 2.625rem);
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__title{
+        letter-spacing: 0.067rem;
+        font-size: calc( (100vw - 20rem)/(48 - 20) * (2.625 - 2) + 2rem);
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__title{
+        width: calc(100% - 2 * 16px);
+        margin: auto;
+        line-height: 109%;
+    }
+    
 }
