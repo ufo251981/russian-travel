@@ -30,7 +30,7 @@
     .photo-grid{
         width: calc(100% - 2 * 16px);
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: repeat(12, 1fr);
         gap: 12px;
         justify-items: stretch;
         padding-bottom: 65px;
