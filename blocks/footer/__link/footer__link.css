@@ -1,11 +1,13 @@
 .footer__link{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 112%;
+    list-style-type: none;
     /*font-size: calc( (100vw - 320px)/(1280 - 320) * (16 - 24) + 24px);*/
 }
 /*@media screen and (max-width: 768px) {
@@ -17,7 +19,7 @@
     opacity: 0.8;
     transition: ease 0.4s;
 }*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 588px) {
     .footer__link{
         line-height: 100%;
         font-size: 1.5rem;

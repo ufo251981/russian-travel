@@ -10,8 +10,7 @@
 @media screen and (max-width: 320px) {
     .place__paragraphs{
         grid-row: 4;
-        width: calc(100% - 30px);
+        width: calc(100% - 35px);
         margin: auto;
-        row-gap: 24px;
     }
 }

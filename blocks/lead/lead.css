@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 1024px) {
     .lead{
-        width: 91%;
+        width: calc(100% - 2 * 48px);
     }
 }
 @media screen and (max-width: 768px) {

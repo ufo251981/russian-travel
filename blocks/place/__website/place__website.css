@@ -2,11 +2,6 @@
     /*grid-area: website;*/
     align-self: flex-end;
 }
-@media screen and (max-width: 768px) {
-    .place__website{
-        min-height: 50px;
-    }
-}
 @media screen and (max-width: 320px) {
     .place__website{
         grid-row: 2;

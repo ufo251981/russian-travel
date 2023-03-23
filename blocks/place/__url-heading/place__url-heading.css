@@ -1,12 +1,11 @@
 .place__url-heading{
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 170%;
     letter-spacing: 0.2rem;
     margin: 0;
-    margin-bottom: 6px;
+    margin-bottom: 1.2%;
 }
 @media screen and (max-width: 768px) {
     .place__url-heading{
@@ -16,6 +15,6 @@
 }
 @media screen and (max-width: 320px) {
     .place__url-heading{
-        margin-bottom: 15px;
+        margin-bottom: 5.3%;
     }
 }
