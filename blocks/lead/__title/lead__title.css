@@ -8,12 +8,10 @@
     text-align: center;
     padding-top: 5.8%;
     margin-bottom: 3.2%;
-    /*font-size: calc( (100vw - 320px)/(1280 - 320) * (96 - 40) + 40px);*/
 }
 
 @media screen and (max-width: 1024px) {
     .lead__title{
-        /*width: calc(100% - 2 * 152px);*/
         padding-top: 5.2%;
     }
 }

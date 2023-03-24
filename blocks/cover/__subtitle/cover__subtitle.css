@@ -6,7 +6,6 @@
     text-align: center;
     margin: 0 auto;
     max-width: 360px;
-    /*font-size: calc( (100vw - 320px)/(1280 - 320) * (18 - 14) + 14px);*/
 }
 @media screen and (max-width: 768px) {
     .cover__subtitle{
@@ -17,16 +16,13 @@
 @media screen and (max-width: 588px) {
     .cover__subtitle{
         line-height: 114%;
-        /*max-width: 260px;*/
         margin: auto;
     }
     
 }
 @media screen and (max-width: 320px) {
     .cover__subtitle{
-        /*line-height: 114%;*/
         max-width: 260px;
-        /*margin: auto;*/
     }
     
 }

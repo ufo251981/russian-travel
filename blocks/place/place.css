@@ -31,12 +31,6 @@
         padding-bottom: 6%;
     }
 }
-/*@media screen and (max-width: 768px) {
-    .place{
-        grid-template-columns: 47.2% 49.5%;
-        padding-bottom: 3.7%;
-    }
-}*/
 @media screen and (max-width: 588px) {
     .place{
         grid-template-rows: repeat(4, minmax(min-content, max-content));

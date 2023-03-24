@@ -1,12 +1,10 @@
 .place__title{
-    /*grid-area: title;*/
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
     margin: 0;
     width: 100%;
-    /*font-size: calc( (100vw - 320px)/(1280 - 320) * (72 - 32) + 32px);*/
 }
 @media screen and (max-width: 1024px) {
     .place__title{

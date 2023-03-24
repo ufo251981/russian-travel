@@ -1,11 +1,4 @@
-/*@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-ExtraBold.woff) format(woff),
-    url(../fonts/Inter-ExtraBold.woff2) format(woff2);
-    /*url(../fonts/) format(onetype),
-    url(../fonts/Inter-Black.ttf) format(truetype);
-    font-weight: 800;  
-}*/
+
 @font-face {
     font-family: 'Inter';
     src: local('Inter'),
@@ -20,18 +13,6 @@
     url(../fonts/Inter-Bold.woff) format(woff);
     font-weight: 700;   
 }
-/*@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-SemiBold.woff) format(woff),
-    url(../fonts/Inter-SemiBold.woff2) format(woff2);
-    font-weight: 600;   
-}*/
-/*@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-Medium.woff) format(woff),
-    url(../fonts/Inter-Medium.woff2) format(woff2);
-    font-weight: 500;   
-}*/
 @font-face {
     font-family: 'Inter';
     src: local('Inter'),
@@ -39,21 +20,3 @@
     url(../fonts/Inter-Regular.woff) format(woff);
     font-weight: 400;   
 }
-/*@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-Light.woff) format(woff),
-    url(../fonts/Inter-Light.woff2) format(woff2);
-    font-weight: 300;   
-}
-@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-ExtraLight.woff) format(woff),
-    url(../fonts/Inter-ExtraLight.woff2) format(woff2);
-    font-weight: 200;   
-}
-@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-Thin.woff) format(woff),
-    url(../fonts/Inter-Thin.woff2) format(woff2);
-    font-weight: 100;   
-}*/
