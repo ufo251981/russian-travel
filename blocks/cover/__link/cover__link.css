@@ -7,7 +7,7 @@
     min-height: 740px;
     position: relative;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     text-decoration: none;
 }
 .cover__link::before{
